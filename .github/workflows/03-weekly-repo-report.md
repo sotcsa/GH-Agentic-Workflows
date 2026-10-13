@@ -8,9 +8,9 @@ permissions:
   issues: read
   pull-requests: read
 
-runs-on: ubuntu:latest
+runs-on: ubuntu-latest
 
-runs-on-slim: ubuntu:latest
+runs-on-slim: ubuntu-latest
 
 network: defaults
 
@@ -19,9 +19,9 @@ tools:
     toolsets: [issues, pull_requests]
 
 safe-outputs:
-  runs-on: ubuntu:latest
+  runs-on: ubuntu-latest
   threat-detection:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
   create-issue:
     title-prefix: "[Heti repójelentés] "
     max: 1

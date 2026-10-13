@@ -9,9 +9,9 @@ on:
 permissions:
   issues: read
 
-runs-on: ubuntu:latest
+runs-on: ubuntu-latest
 
-runs-on-slim: ubuntu:latest
+runs-on-slim: ubuntu-latest
 
 network: defaults
 
@@ -20,9 +20,9 @@ tools:
     toolsets: [issues]
 
 safe-outputs:
-  runs-on: ubuntu:latest
+  runs-on: ubuntu-latest
   threat-detection:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
   add-comment:
     target: triggering
     max: 1

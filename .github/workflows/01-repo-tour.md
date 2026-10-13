@@ -7,16 +7,16 @@ on:
 permissions:
   contents: read
 
-runs-on: ubuntu:latest
+runs-on: ubuntu-latest
 
-runs-on-slim: ubuntu:latest
+runs-on-slim: ubuntu-latest
 
 network: defaults
 
 safe-outputs:
-  runs-on: ubuntu:latest
+  runs-on: ubuntu-latest
   threat-detection:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
   create-issue:
     title-prefix: "[GH AW tanulás] "
     max: 1
