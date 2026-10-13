@@ -9,17 +9,14 @@ permissions:
 
 runs-on: ubuntu:latest
 
-runs-on-slim:
-  group: idomsoft
+runs-on-slim: ubuntu:latest
 
 network: defaults
 
 safe-outputs:
-  runs-on:
-    group: idomsoft
+  runs-on: ubuntu:latest
   threat-detection:
-    runs-on:
-      group: idomsoft
+    runs-on: ubuntu:latest
   create-issue:
     title-prefix: "[GH AW tanulás] "
     max: 1
