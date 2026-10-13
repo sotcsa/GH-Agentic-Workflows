@@ -9,8 +9,7 @@ on:
 permissions:
   issues: read
 
-runs-on:
-  group: idomsoft
+runs-on: ubuntu:latest
 
 runs-on-slim:
   group: idomsoft

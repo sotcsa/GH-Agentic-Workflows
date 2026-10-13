@@ -8,8 +8,7 @@ permissions:
   issues: read
   pull-requests: read
 
-runs-on:
-  group: idomsoft
+runs-on: ubuntu:latest
 
 runs-on-slim:
   group: idomsoft
